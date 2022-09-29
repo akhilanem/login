@@ -1,0 +1,155 @@
+.background{
+    display: flex;
+    flex-direction: row;
+    background: url("../assets/images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    margin: 100px 100px 100px 120px;
+    height: 400px;
+    width: 1000px;
+}
+
+.card1{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.card2{
+    width: 50%;
+    background: url("../assets/images/rose.jpg");
+    background-size: cover;
+}
+
+.login-text{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 48px;
+}
+
+.input-username{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 24px;
+    width: 250px;
+}
+
+.input-password{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.checkbox-div{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-bottom: 16px;
+}
+
+.checkbox-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-input{
+    border: 1px solid red;
+}
+
+.login-button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 18px;
+    background-color: purple;
+    color: white;
+    border: none;
+    opacity: 0.8;
+}
+
+.para-remember{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.para-password{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: purple;
+    font-weight: bold;
+}
+
+.button-div{
+    margin-bottom: 16px;
+}
+
+button{
+    box-shadow: 0px 2px 5px grey;
+}
+
+.account-div{
+    width: 250px;
+    display: flex;
+    text-align: center;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+
+.account-name{
+    font-size: 12px;
+    margin-right: 12px;
+    font-family: sans-serif;
+}
+
+.sign-up{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: purple;
+    font-weight: bold;
+}
+
+*:focus{
+    outline: none;
+}
+
+input::-webkit-input-placeholder { transition: all 0.2s ease; padding-top: -10px;}
+
+.input-container{
+    position: relative;
+}
+
+.input-container i{
+    position: absolute;
+    left: 350px;
+    color: gray;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+}
+
+.input-container label{
+    position: absolute;
+    z-index: 1;
+    color: #e4e4e4;
+}
+
+.input-username:focus + .input-container label{
+ margin-top: -25px;
+}
+
